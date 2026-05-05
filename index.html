@@ -9,15 +9,15 @@
   </head>
   <body>
     <main>
-      <h1>VFX Artist | Nate H. | Portfolio</h1>
-      <button>Artstation</button> <button>YouTube</button
-      ><button>Subscribe</button>
+      <h1 id="title">VFX Artist | Nate H.</h1>
       <p>Aspiring Technical FX Artist</p>
-      <p>#MentalHealthAwareness</p>
-
+        <div class="btn-gap">
+          <a href="https://www.youtube.com/@CursedGraphix" target="_blank" class="ext-btn">YouTube</a>
+          <a href="https://www.artstation.com/cursedgraphix" target="_blank" class="ext-btn">Artstation</a>
+        </div>
       <h2>Video Editing</h2>
       <section class="rows">
-        <figure id="kgr">
+        <figure class="vid-border">
           <iframe
             width="400"
             height="225"
@@ -29,10 +29,10 @@
             allowfullscreen
           >
           </iframe>
-          <figcaption>KGRMajesty Interview | @VFXartist</figcaption>
+          <figcaption>KGRMajesty Interview | Davinci Resolve</figcaption>
         </figure>
 
-        <figure id="h2w">
+        <figure class="vid-border">
           <iframe
             width="400"
             height="225"
@@ -44,13 +44,30 @@
             allowfullscreen
           >
           </iframe>
-          <figcaption>The Whole Man Conference 2024 | @VFXartist</figcaption>
+          <figcaption>
+            The Whole Man Conference 2024 | Davinci Resolve
+          </figcaption>
+        </figure>
+
+        <figure class="vid-border">
+          <iframe
+            width="400"
+            height="225"
+            src="https://www.youtube.com/embed/Gugses1QzjA?si=vbB0wkI8T1bcr0sE"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          >
+          </iframe>
+          <figcaption>When All Else Fails | PrPro/AE</figcaption>
         </figure>
       </section>
 
       <h2>Blender</h2>
       <section class="blender">
-        <figure id="plx">
+        <figure class="vid-border">
           <iframe
             width="400"
             height="225"
@@ -62,10 +79,10 @@
             allowfullscreen
           >
           </iframe>
-          <figcaption>Looping Plexus Animation | @VFXartist</figcaption>
+          <figcaption>Looping Plexus Animation | Blender</figcaption>
         </figure>
 
-        <figure id="noname">
+        <figure class="vid-border">
           <iframe
             width="400"
             height="225"
@@ -77,25 +94,60 @@
             allowfullscreen
           >
           </iframe>
-          <figcaption>Sculpture Practice | @VFXartist</figcaption>
+          <figcaption>Sculpture Practice | Blender</figcaption>
         </figure>
+
+        <figure class="vid-border">
+          <iframe
+            width="400"
+            height="225"
+            src="https://www.youtube.com/embed/k_WB9jFReoU?si=_anvHrHaj1RlfE-Q"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+          </iframe>
+          <figcaption>Retopology Practice | Blender
       </section>
 
-      <section id="skills">
-        <h2>Skills Progress</h2>
-        <p><s>Houdini Fundamentals</s></p>
-        <p><s>SOPs, VOPs, & VEX</s></p>
-        <p><s>HTML + CSS</s></p>
-        <p>JavaScript</p>
-        <p>Python</p>
-      </section>
+      <h2>Technical Skills</h2>
+      <section id="skills-table">
+        <table>
+          <tbody>
+            <tr class="tech-title">
+              <td>Houdini</td>
+              <td>Blender</td>
+              <td>Davinci/Fusion</td>
+              <td>Web-Dev</td>
+            </tr>
 
-      <section id="certs">
-        <p>PLACE CERTIFICATION IMAGES HERE</p>
+            <tr>
+              <td>SOPs</td>
+              <td>Polymodel</td>
+              <td>Cut/Edit</td>
+              <td>HTML</td>
+            </tr>
+
+            <tr>
+              <td>VEX & VOPs</td>
+              <td>Sculpting</td>
+              <td>Fairlight</td>
+              <td>CSS Basics</td>
+            </tr>
+
+            <tr>
+              <td>Proc. Modeling</td>
+              <td>Retopo</td>
+              <td>VFX/Composite</td>
+              <td>Python</td>
+            </tr>
+          </tbody>
+        </table>
       </section>
     </main>
     <footer>
-      <p>Follow on social media -- @VFXartist.nate</p>
+      <p>Social Media -- CursedGraphix</p>
     </footer>
   </body>
 </html>
